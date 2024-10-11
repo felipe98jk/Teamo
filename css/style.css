@@ -214,7 +214,7 @@ body {
 }
 
 
-/* Estilos responsivos para el oso polar */
+/* Estilos responsivos para el oso polar, títulos y botón */
 
 /* Dispositivos móviles (hasta 767px) */
 @media screen and (max-width: 767px) {
@@ -237,6 +237,60 @@ body {
     .oso-brazo {
         width: 40px;
         height: 60px;
+    }
+
+    .oso-oreja-izquierda,
+    .oso-oreja-derecha {
+        width: 20px;
+        height: 20px;
+    }
+
+    .oso-oreja-izquierda {
+        left: 35px;
+    }
+
+    .oso-oreja-derecha {
+        right: 35px;
+    }
+
+    .oso-pierna-izquierda,
+    .oso-pierna-derecha {
+        width: 30px;
+        height: 40px;
+        bottom: -15px;
+    }
+
+    .oso-pierna-izquierda {
+        left: 25px;
+    }
+
+    .oso-pierna-derecha {
+        right: 25px;
+    }
+
+    .oso-nariz {
+        width: 12px;
+        height: 8px;
+        bottom: 20px;
+        left: 34px;
+    }
+
+    .greetings {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .botones {
+        padding: 7px;
+    }
+
+    .botones a {
+        padding: 7px;
+        font-size: 0.9rem;
     }
 }
 
@@ -262,6 +316,60 @@ body {
         width: 45px;
         height: 70px;
     }
+
+    .oso-oreja-izquierda,
+    .oso-oreja-derecha {
+        width: 25px;
+        height: 25px;
+    }
+
+    .oso-oreja-izquierda {
+        left: 40px;
+    }
+
+    .oso-oreja-derecha {
+        right: 40px;
+    }
+
+    .oso-pierna-izquierda,
+    .oso-pierna-derecha {
+        width: 35px;
+        height: 45px;
+        bottom: -18px;
+    }
+
+    .oso-pierna-izquierda {
+        left: 28px;
+    }
+
+    .oso-pierna-derecha {
+        right: 28px;
+    }
+
+    .oso-nariz {
+        width: 14px;
+        height: 9px;
+        bottom: 23px;
+        left: 38px;
+    }
+
+    .greetings {
+        font-size: 5rem;
+    }
+
+    .description {
+        font-size: 1.25rem;
+        margin-bottom: 18px;
+    }
+
+    .botones {
+        padding: 8px;
+    }
+
+    .botones a {
+        padding: 8px;
+        font-size: 0.95rem;
+    }
 }
 
 /* Computadoras de escritorio (1024px y superiores) */
@@ -272,11 +380,26 @@ body {
     }
 
     /* Los estilos originales se mantienen para pantallas grandes */
+    .greetings {
+        font-size: 7rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .botones {
+        padding: 9px;
+    }
+
+    .botones a {
+        padding: 9px;
+        font-size: 1rem;
+    }
 }
 
 /* Ajuste de la animación para todos los dispositivos */
 .oso-polar {
     animation: flotar 3s ease-in-out infinite;
 }
-
-
