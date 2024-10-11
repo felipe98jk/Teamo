@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if("serviceWorker" in navigator)
+        {
+            navigator.serviceWorker.register("./sw.js").then(registration)
+        }
+    </script>
+    <title>Flowers</title>
+</head>
+
+<body>
+        <div class="greetings">
+            <span>T</span>
+            <span>e</span>
+            <span>A</span>
+            <span>m</span>
+            <span>o</span>
+            <span>!</span>
+
+        </div>
+        <div class="description">
+            <span>ESTE DETALLE ES PARA TI, ESPERO TE GUSTE Y NUNCA OLVIDES QUE TE AMO CON TODO MI CORAZON :)</span>
+        </div>
+        <div class="button">
+            <button class="botones">
+                <a href="flower.html" style="color: #fff;">CLICK AQUÍ</a>
+            </button>
+        </div>
+        <div class="oso-polar">
+            <div class="oso-cuerpo"></div>
+            <div class="oso-cabeza">
+                <div class="oso-ojos"></div>
+                <div class="oso-nariz"></div>
+            </div>
+            <div class="oso-brazo oso-brazo-izquierdo"></div>
+            <div class="oso-brazo oso-brazo-derecho"></div>
+            <div class="oso-oreja-izquierda"></div>
+            <div class="oso-oreja-derecha"></div>
+            <div class="oso-pierna-izquierda"></div>
+            <div class="oso-pierna-derecha"></div>
+        </div>
+        <div class="jirafa">
+            <div class="jirafa-cuerpo"></div>
+            <div class="jirafa-cuello"></div>
+            <div class="jirafa-cabeza">
+                <div class="jirafa-ojos"></div>
+                <div class="jirafa-orejas"></div>
+            </div>
+            <div class="jirafa-pata jirafa-pata-delantera-izquierda"></div>
+            <div class="jirafa-pata jirafa-pata-delantera-derecha"></div>
+            <div class="jirafa-pata jirafa-pata-trasera-izquierda"></div>
+            <div class="jirafa-pata jirafa-pata-trasera-derecha"></div>
+        </div>
+        
+</body>
+
+</html>
